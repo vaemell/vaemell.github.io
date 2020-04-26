@@ -32,7 +32,16 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+.poster{
+	max-width:50%;
+	margin:auto;
+	display:block;
+	border:solid;
+}
+.poster:hover{
+	max-width:100%;
 
+}
 ol, ul {
 	list-style: none;
 }
@@ -2634,8 +2643,9 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			margin: 4rem 0;
+			margin: 0;
 			width: 100%;
+			
 		}
 
 			.image.main:first-child {
